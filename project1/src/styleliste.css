@@ -1,0 +1,12 @@
+/* Style pour la liste non ordonnée */
+ul li {
+    list-style-type: circle;
+    padding: 10px;        /* Espacement interne pour les éléments */
+    transition: background-color 0.3s ease; /* Animation pour un effet fluide */
+}
+
+/* Style de survol : changement de fond lors du hover */
+ul li:hover {
+    background-color: #0c920c; /* Couleur de fond lors du survol */
+    cursor: pointer;           /* Curseur pointer */
+}
